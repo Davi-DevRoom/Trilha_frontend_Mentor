@@ -19,9 +19,15 @@ body{
     height: 440px;
     padding: 1rem;
     background-color: hsl(0, 0%, 100%);
-    box-shadow: 9px 9px black;
+    box-shadow: 9px 9px 0 hsl(0, 0%, 7%);
     border-radius: 12px;
-    border: 1px solid black;
+    border: 1px solid hsl(0, 0%, 7%);
+    transition: box-shadow .5s linear;
+}
+
+.container:hover{
+    cursor:pointer;
+    box-shadow:16px 16px
 }
 
 img{
@@ -47,7 +53,7 @@ span{
 
 p{
     color: hsl(0, 0%, 42%);
-    font-size: 13px;
+    font-size: 16px;
     font-weight: 500;
     margin-bottom: 1rem;
 }
@@ -55,7 +61,12 @@ p{
 h1{
     font-size: 18px;
     font-weight: 800;
-     margin-bottom: 1rem;
+    margin-bottom: 1rem;
+    cursor: pointer;
+}
+
+h1:hover{
+    color: hsl(47, 88%, 63%);
 }
 
 .container div{
