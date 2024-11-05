@@ -64,7 +64,7 @@ body{
     align-items: start;
     justify-content: center;
     gap: 1rem;
-    padding: 2rem;
+    padding: 2rem 2rem;
     width: 100%;
 }
 
@@ -87,7 +87,7 @@ body{
     font-family: var(--fontmont);
     font-weight: var(--weight-500);
     font-size: 1rem;
-    color: var(--Darkgrayishblue); 
+    color: var(--Darkgrayishblue);
 }
 
 /*price*/
